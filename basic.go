@@ -61,7 +61,7 @@ var c int = int(math.Sqrt(a*a + b*b))
  */
 func consts() {
 	const (
-		filename = "lovezdy.txt"
+		filename = "test.txt"
 		a        = 3
 		b        = 4
 	)

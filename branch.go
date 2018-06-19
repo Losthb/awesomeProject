@@ -17,9 +17,9 @@ func main() {
 	if2()
 
 	fmt.Println(
-	learnswitch(100),
-	learnswitch(80),
-	learnswitch(60),
+		learnswitch(100),
+		learnswitch(80),
+		learnswitch(60),
 	)
 }
 
@@ -36,7 +36,7 @@ func learnswitch(score int) string {
 	result := ""
 	switch {
 	case score < 0 || score > 100:
-		panic(fmt.Sprintf("wrong score:d%", score))
+		panic(fmt.Sprintf("wrong score: %d", score))
 	case score < 60:
 		return "F"
 	case score < 80:
